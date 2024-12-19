@@ -1,0 +1,8 @@
+@media screen and (max-width:992px) {
+    .header2{
+        display: flex;
+    }
+    .header1{
+        display: none;
+    }
+}

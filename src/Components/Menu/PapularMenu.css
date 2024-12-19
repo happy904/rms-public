@@ -1,0 +1,346 @@
+/* foodmenu */
+
+.food-menubar {
+    background-color: var(--colorWhite);
+    box-shadow: 0 14px 28px -12px rgba(0, 0, 0, .12);
+    position: sticky;
+    top: 0;
+    z-index: 6;
+    max-width: 95%;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.food-menubar form {
+    width: 90%;
+    height: 35px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.food-menubar .button {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.food-menubar input {
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50px;
+    padding: 8px 40px 8px 50px;
+    background-color: #F2F0F1;
+    border: none;
+}
+
+.right-arrow-btn a {
+    text-decoration: none;
+    color: var(--header);
+    width: 30px;
+    height: 30px;
+    border: 1px solid var(--header);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--white);
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+}
+
+.tabs-content ul li span{
+    text-transform: capitalize;
+    padding: 10px 20px 15px 20px;
+    transition: all .5s ease;
+}
+.tabs-content ul li span:hover{
+    background-color: var(--varient-color);
+}
+.active-span{
+    background-color: var(--varient-color);
+}
+.tabs-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tabs-items {
+    display: flex;
+    width: 900px;
+    justify-content: space-between;
+}
+
+.foodmenu-content {
+    margin-top: 25px;
+}
+
+.heading-food2 h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.heading-food3 h2 {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.food-heading p {
+    font-size: 17px;
+    color: var(--text);
+}
+
+.popular-items {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    height: 148px;
+}
+
+.popular-items .inner-items {
+    padding: 12px;
+}
+
+.popular-items .inner-items h3 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.popular-items .inner-items p {
+    font-size: 17px;
+    color: var(--text);
+}
+
+
+.food-images img {
+    border-radius: 10px;
+}
+
+.food-images .plus {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+    background: white;
+    border-radius: 50px;
+    height: 33px;
+    width: 33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.side-foodmenu {
+    border: 1px solid var(--border);
+    border-radius: 15px;
+}
+
+.side-foodmenu .inner-foodmenu {
+    padding: 20px;
+}
+
+.side-foodmenu .food-btn {
+    border-radius: 10px;
+    background-color: #FAFAFA;
+
+}
+
+.inner-food-btn {
+    display: flex;
+    padding: 5px;
+}
+
+.inner-food-btn .delivery-btn {
+    padding: 15px 35px;
+    border-radius: 7px;
+    border: 1px solid var(--border);
+    color: var(--header);
+    background-color: var(--white);
+}
+
+.inner-food-btn .pick-btn {
+    padding: 15px 35px;
+    border: none;
+    color: var(--header);
+    background-color: transparent;
+    transition: 0.5s;
+    border-radius: 7px;
+}
+
+.inner-food-btn .pick-btn:hover {
+    border-radius: 10px;
+    background-color: #F0F2F2;
+}
+
+.inner-food-btn button a {
+    text-decoration: none;
+    color: var(--header);
+}
+
+.side-image-content {
+    margin-top: 40%;
+}
+
+.side-image-content .side-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.side-image-content .side-image img {
+    max-width: 96px;
+    max-height: 96px;
+}
+
+.side-content-hp {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.side-content-hp h2 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.side-content-hp p {
+    max-width: 200px;
+    color: var(--text);
+    margin: auto;
+}
+
+.modal-dialog {
+    max-width: 45% !important;
+    height: 50% !important;
+}
+
+.crossIcone {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 1px solid rgb(70, 70, 70);
+}
+
+.modal-content {
+    padding: 10px;
+}
+
+.modalImg {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+.variation {
+    border: 1px solid var(--varient-color);
+    border-radius: 10px;
+    background-color: var(--varient-color);
+}
+
+.varation-status {
+    font-size: 12px;
+    color: white;
+}
+
+.varation-status span {
+    background-color: var(--contrast-color);
+    padding: 5px 10px;
+}
+
+.variation-options span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.modal-content {
+    padding: 25px;
+    height: 90vh;
+    overflow-y: scroll;
+}
+
+.variation-body li {
+    padding: 10px 0px;
+}
+
+.variation-options img {
+    border-radius: 8px;
+    height: 48px;
+    width: 48px;
+    margin-right: 5px;
+}
+
+.variations-instrauctions textarea {
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.variations-instrauctions div {
+    border: 1px solid black;
+    font-size: 15px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+.variations-instrauctions li{
+    margin-left: -30px;
+    padding: 10px 10px;
+    background-color: var(--white);
+    background-color: rgb(252, 250, 250);
+    min-height: 40px;
+    font-weight: 400;
+    box-shadow: 2px 2px 2px 2px rgb(230, 230, 230);
+    transition: all .5s ease;
+    
+}
+.variations-instrauctions li:hover {
+    color: white;
+    background-color: var(--accent-color);
+}
+
+.cartIcones button {
+    background-color: var(--white);
+    border: 1px solid rgb(58, 57, 57);
+    border-radius: 50%;
+    cursor: pointer;
+}
+.cartIcones button svg{
+    font-size: 20px;
+    transform: translateY(-2px)
+}
+.addToCart {
+    border-radius: 20px !important;
+    padding: 6px 10px;
+    color: var(--white);
+    border: 1px solid var(--accent-color);
+    background-color: var(--accent-color);
+    transition: all .5s ease;
+}
+.addToCart:hover{
+    background-color: var(--contrast-color);
+    border: 1px solid var(--contrast-color);
+}
+.menu-carousal-btn,
+.btn-prev {
+    padding: 0 !important;
+    width: 30px;
+    height:30px;
+    border-radius: 50%;
+    border: 1px solid rgb(68, 68, 68);
+    margin: 0 !important;
+}
+.menu-carousal-btn:hover{
+    border: 1px solid rgb(68, 68, 68);
+}
+.btn-prev:hover{
+    border: 1px solid rgb(68, 68, 68);
+}
+.menu-carousal-btn:active{
+    background-color: var(--contrast-color) !important;
+    border: var(--contrast-color);
+}
+.menu-carousal-btn li:first-child{
+    margin-left: 20px !important;
+}
